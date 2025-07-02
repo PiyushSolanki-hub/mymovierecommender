@@ -1,0 +1,38 @@
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment directories
+env/
+venv/
+.venv/
+**/lib/
+**/include/
+**/bin/
+**/share/
+**/local/
+
+# IDE specific files (Visual Studio Code in your case)
+.vscode/
+
+# Streamlit specific (if you have local cached data/config that shouldn't be committed)
+.streamlit/
+
+# Operating System files
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Heroku/Deployment specific (if you use local environment files)
+.env
+*.env
+
+# Logs and temporary files (if your app generates them)
+logs/
+tmp/
+
+# Build artifacts (unlikely for this app, but good practice)
+dist/
+build/
