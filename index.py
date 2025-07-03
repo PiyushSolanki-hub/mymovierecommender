@@ -34,7 +34,7 @@ if 'show_number_selection' not in st.session_state:
 if 'number_of_movies_selected' not in st.session_state:
     st.session_state.number_of_movies_selected = None
 
-st.title('Movie Recommender')
+st.title('Movie Recommender - By Piyush Solanki')
 
 thechossenone = st.selectbox(
     'Choose a movie to see recommendations',
